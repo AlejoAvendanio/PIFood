@@ -1,0 +1,32 @@
+.card{
+    margin: 7px;
+    width: 300px;
+    height: 450px;
+    color: #ccc;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/363/368/20/dark-wood-texture-wallpaper-preview.jpg');
+    border-radius: 7px;
+    position: relative;
+}
+.card img{
+    object-fit: cover;
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+}
+
+.card .h3{
+    z-index: 30;
+    top: 0;
+    position: relative;
+    color: #ccc;
+    font-size: 23px;
+    background: #000;
+}
+.card .p{
+    z-index: 20;
+    margin-top: 200px;
+    position: relative;
+}
+body{
+    background-color: black;
+}

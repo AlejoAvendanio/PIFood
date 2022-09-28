@@ -1,0 +1,63 @@
+.divCreate section{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin: 80px;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/363/368/20/dark-wood-texture-wallpaper-preview.jpg');
+    border-radius: 10px;
+    width: 500px;
+    height: 1000px;
+}
+.divCreate a{
+    color: antiquewhite;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.divCreate form{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items:center ;
+    justify-content: space-around;
+}
+.divCreate footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divCreate input{
+    width: 150px;
+    height: 18px;
+    border: none;
+    border-bottom: 3px solid rgb(2, 65, 92);
+    background: transparent;
+    color: #fff;
+}
+.divCreate input:focus{
+    background: linear-gradient(to bottom,transparent,#444);
+    outline: none;
+    border-bottom:  3px solid #333;
+}
+.divCreate input::placeholder{
+    color: rgb(214, 214, 214);
+}
+.divCreate textarea{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid rgb(2, 65, 92);
+    background: transparent;
+    color: #fff;
+    resize: none;
+    margin: 3px;
+}
+.divCreate textarea:focus{
+    background: linear-gradient(to buttom,transparent,#444);
+    outline: none;
+    border-bottom:  3px solid #333;
+}
+
+
+.divCreate p{
+    color: aliceblue;
+}

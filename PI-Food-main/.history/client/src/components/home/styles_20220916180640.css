@@ -1,0 +1,35 @@
+
+.divHeder{
+    background-color: black;
+}
+.divHeder section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.divHeder section div{
+    min-width: 250px;
+}
+
+.divHeder h1{
+    margin-top: -5px;
+    color: #fff;
+}
+.divHeder div{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.divHeder select{
+    width: 150px;
+
+}
+.divSectionHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imageFont img{
+    object-fit: contain;
+    height: 101vh;
+}

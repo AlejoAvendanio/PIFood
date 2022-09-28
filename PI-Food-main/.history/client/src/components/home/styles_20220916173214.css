@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.divHeder section{
+    display: flex;
+    justify-content: space-between;
+}
+.divSectionHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

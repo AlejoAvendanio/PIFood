@@ -1,0 +1,26 @@
+.divLandingPage{
+    background-image: url('https://images.alphacoders.com/678/678281.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divLandingContain{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.233);
+    border: solid #000;
+    border-radius: 10px; 
+}
+.divLandingH1{
+    height: 25%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.divLandingButton{
+    display: flex;
+    justify-content: center;
+}
+

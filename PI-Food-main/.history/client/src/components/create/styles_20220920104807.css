@@ -1,0 +1,12 @@
+.divCreate form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 600px;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/363/368/20/dark-wood-texture-wallpaper-preview.jpg');
+    border-radius: 10px;
+}
+
+.divCreate p{
+    color: aliceblue;
+}

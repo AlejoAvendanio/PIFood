@@ -1,0 +1,56 @@
+.card{
+    margin: 7px;
+    width: 350px;
+    height: 550px;
+    color: #ccc;
+    background-image: url('https://p4.wallpaperbetter.com/wallpaper/363/368/20/dark-wood-texture-wallpaper-preview.jpg');
+    border-radius: 7px;
+    position: relative;
+    transition: ease .3s opacity;
+}
+.card img{
+    width: 350px;
+    padding-top:20px ;
+}
+
+.card .h3{
+    top: 2px;
+    position: relative;
+    color: #ccc;
+    font-size: 23px;
+}
+.card .divCardInfo{
+    z-index: 20;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.pCardHealth{
+    margin-top: 10px;
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.card footer{
+    display: flex;
+    justify-content: center;
+}
+.card b{
+    color: rgb(136, 116, 0);
+}
+.card a{
+    color: #aaa;
+    position: absolute;
+    bottom: 23px;
+}
+.card a:hover{
+    color: #666;
+}
+body{
+    background-color: black;
+}
+.card:hover{
+    opacity: .8;
+}

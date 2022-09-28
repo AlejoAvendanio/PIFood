@@ -1,0 +1,22 @@
+
+.pageFavDiv header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.pageFavDiv header h1 {
+    color: aliceblue;
+    font-size:25px ;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.pageFavDiv header a{
+    margin-left:20px ;
+    color: aliceblue;
+}
+
+.pageFavDiv section{
+    display: flex;
+    justify-content: space-around;
+}

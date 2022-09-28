@@ -1,0 +1,52 @@
+
+.headerDetail{
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(85, 144, 255);
+}
+.headerDetail a{
+    color: #000;
+    font-size: 26px;
+}
+.divDetailInfo{
+    border: solid 2px rgb(85, 144, 255);
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 10px;
+}
+.divDetailInfo ul{
+    color: #000;
+}
+.divDetailFlex{
+    display: flex;
+    width: 100%;
+}
+.divDetailFlex img{
+    width: 50%;
+    height: 400px;
+    padding-bottom: 10px;
+
+}
+.divDetailBox{
+    border-bottom: solid 2px rgb(85, 144, 255);
+    
+}
+.divDetail{
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+ background-color: aliceblue;
+}
+.divDetail b {
+    color: rgb(136, 116, 0);
+}
+.divImgDetails{
+    background-image: url(../img/detailsRecorte.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1800px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}

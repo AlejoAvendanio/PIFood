@@ -1,0 +1,6 @@
+.pageFavDiv header b{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

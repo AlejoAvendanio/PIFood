@@ -1,0 +1,24 @@
+h5 ,p{
+    color: aliceblue;
+}
+.headerDetail{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(155, 155, 155);
+}
+.headerDetail a{
+    color: aliceblue;
+    font-size: 26px;
+}
+.divDetails{
+    margin-top: 10px;
+}
+.divDetailFlex{
+    display: flex;
+    width: 100%;
+}
+.divDetailFlex img{
+    width: 50%;
+}

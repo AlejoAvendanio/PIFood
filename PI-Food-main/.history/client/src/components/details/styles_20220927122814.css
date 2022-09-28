@@ -1,0 +1,47 @@
+h5 ,p{
+    color: aliceblue;
+}
+.headerDetail{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(85, 144, 255);
+}
+.headerDetail a{
+    color: aliceblue;
+    font-size: 26px;
+}
+.divDetailInfo{
+    border: solid 2px rgb(85, 144, 255);
+    border-radius: 0 0 8px 8px;
+    padding-bottom: 10px;
+
+}
+.divDetailInfo ul{
+    color: aliceblue;
+}
+.divDetailFlex{
+    display: flex;
+    width: 100%;
+}
+.divDetailFlex img{
+    width: 50%;
+    height: 400px;
+}
+.divDetailBox{
+    border-bottom: solid 2px rgb(85, 144, 255);
+}
+.divDetail{
+ display: flex;
+ flex-direction: column;
+}
+.divImgDetails{
+    background-image: url(../img/detailsRecorte.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1800px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}

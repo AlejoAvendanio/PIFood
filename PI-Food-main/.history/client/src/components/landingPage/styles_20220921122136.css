@@ -1,0 +1,9 @@
+.divLandingPage{
+    background-image: url('https://images.alphacoders.com/678/678281.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+.divLandingContain{
+    width: 500px;
+    height: 500px;
+}

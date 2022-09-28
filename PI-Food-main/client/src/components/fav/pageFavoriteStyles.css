@@ -1,0 +1,46 @@
+
+.pageFavDiv header{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(134, 134, 134) ;
+    padding:10px ;
+}
+.pageFavDiv header b {
+    color: aliceblue;
+    font-size:25px ;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.pageFavDiv header a{
+    font-size: 20px;
+    margin-left:20px ;
+    color: aliceblue;
+}
+.icon {
+    font-size:25px ;
+}
+.pageFavDiv section div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.removeFavorite {
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    color: aliceblue;
+}
+.addFavorite{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    color: rgb(221, 219, 98);
+}
+
+
+.favorite{
+    position: absolute;
+    top: 55px;
+    right: 0px;
+}

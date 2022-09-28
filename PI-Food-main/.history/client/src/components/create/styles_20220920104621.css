@@ -1,0 +1,9 @@
+.divCreate form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.divCreate p{
+    color: aliceblue;
+}

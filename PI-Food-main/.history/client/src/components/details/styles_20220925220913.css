@@ -1,0 +1,13 @@
+h5 ,p{
+    color: aliceblue;
+}
+.headerDetail{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.headerDetail a{
+    color: aliceblue;
+    font-size: 26px;
+}

@@ -1,0 +1,37 @@
+
+.pageFavDiv header{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(134, 134, 134) ;
+    padding:10px ;
+}
+.pageFavDiv header b {
+    color: aliceblue;
+    font-size:25px ;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.pageFavDiv header a{
+    font-size: 20px;
+    margin-left:20px ;
+    color: aliceblue;
+}
+.pageFavDiv icon {
+    color: aliceblue;
+}
+.pageFavDiv section div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.addFavorite {
+    background-color: wheat;
+    border: none;
+}
+
+.favorite{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}

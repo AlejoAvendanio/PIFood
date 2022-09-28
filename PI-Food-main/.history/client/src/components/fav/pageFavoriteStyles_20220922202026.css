@@ -1,0 +1,16 @@
+
+.pageFavDiv header{
+    display: flex;
+    justify-content: space-around;
+}
+.pageFavDiv header b {
+    color: aliceblue;
+}
+.pageFavDiv header a{
+    color: aliceblue;
+}
+
+.pageFavDiv section{
+    display: flex;
+    justify-content: space-around;
+}

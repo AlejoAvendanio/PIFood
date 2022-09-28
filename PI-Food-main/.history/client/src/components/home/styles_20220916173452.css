@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.divHeder section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.divHeder h1{
+    margin-top: 5px;
+}
+.divHeder div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.divSectionHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

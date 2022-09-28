@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+ul li{
+    cursor: pointer;
+}
+ul li:hover{
+    color: rgb(95, 95, 95);
+}

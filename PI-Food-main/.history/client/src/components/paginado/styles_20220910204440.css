@@ -1,0 +1,9 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+ul li{
+    cursor: pointer;
+}

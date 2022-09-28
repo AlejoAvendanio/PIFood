@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+.divHeder{
+    display: flex;
+}
+.divSectionHome{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

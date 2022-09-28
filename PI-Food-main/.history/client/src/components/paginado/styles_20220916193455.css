@@ -1,0 +1,19 @@
+.divPaginado ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    color: #ccc;
+}
+.divPaginado ul li{
+    cursor: pointer;
+    border: solid 1px #ccc;
+    display: flex;
+    justify-content: center;
+    width: 27px;
+    border-radius: 100%;
+}
+.divPaginado ul li:hover{
+    color: #aaa;
+    border: solid 1px #aaa;
+}

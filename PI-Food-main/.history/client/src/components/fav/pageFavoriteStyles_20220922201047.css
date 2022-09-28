@@ -1,0 +1,7 @@
+.pageFavDiv{
+    display: flex;
+    justify-content: space-around;
+}
+/* .pageFavDiv div{
+    display: flex;
+} */

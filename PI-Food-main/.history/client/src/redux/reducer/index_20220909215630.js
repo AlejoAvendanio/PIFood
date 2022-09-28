@@ -1,0 +1,10 @@
+import  {GET_FOOD} from '../actions/index'
+
+const inicialState = {
+    foots:[],
+}
+export default function rootReducer(state = inicialState, action){
+    switch(action.type){
+        case 
+    }
+}
