@@ -1,5 +1,5 @@
 
-import  {ADD_FAVORITE, DETAILS, FILTER_BY_DIETS, GET_DIETS, GET_FOOD, GET_NAME_QUERY, ORDER_BY_NAME, ORDER_BY_REPICE_CREATE, ORDER_BY_SCORE, REMOVE_FAVORITE} from '../actions/index'
+import  {ADD_FAVORITE, DETAILS, DETAILS_FOOD, FILTER_BY_DIETS, GET_DIETS, GET_FOOD, GET_NAME_QUERY, ORDER_BY_NAME, ORDER_BY_REPICE_CREATE, ORDER_BY_SCORE, REMOVE_FAVORITE} from '../actions/index'
 
 const inicialState = {
     foods:[], // todas las comidas
@@ -118,6 +118,11 @@ export default function rootReducer(state = inicialState, action){
             return{
                 ...state,
                 favorites: favor
+            }
+        case DETAILS_FOOD:
+            return{
+                ...state,
+                details:[]
             }
         default: return state
     }

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useParams } from 'react-router-dom'
-import { details } from '../../redux/actions'
+import { details, vacio } from '../../redux/actions'
 import './styles.css'
 
 export default function Details() {
@@ -10,6 +10,9 @@ export default function Details() {
     const { id }= useParams()
     useEffect(()=>{
         dispatch(details(id))
+        return()=>{
+            dispatch(vacio())
+        }
     },[dispatch])
     let summary = detail.map(e=>e.summary?.replace(/<[^>]*>/g,''))
 
@@ -25,9 +28,11 @@ export default function Details() {
                         <div className='divDetailInfo '>
                             <div className='divDetailBox'><p>Diet</p>
                                 <ul> {
-                                    e.diets?.map(d=><li key={e.id+d}>{d.name}</li>)
-                                    ?? 
-                                    e.diets?.map(d=><li key={e.id+d}>{d}</li>)
+                                    e.diets?.[0]?.name 
+                                    ?
+                                    e.diets.map(e=><li>{e.name}</li>) 
+                                    : 
+                                    e.diets.map(e=><li>{e}</li>)
                                 } </ul>
                             </div>
                             <div className='divDetailBox detailHeigth'>

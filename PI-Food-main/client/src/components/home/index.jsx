@@ -25,10 +25,10 @@ const Home= ()=> {
   const dispatch = useDispatch()
 
   useEffect(()=>{
-    // if(!food.length){setLoading(true)
-    // setTimeout(()=>{
-    //   setLoading(false)
-    // },2000)}
+    if(!food.length){setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },2000)}
     dispatch(getDiets())
     dispatch(getFood())
     },[dispatch,getDiets,getFood])

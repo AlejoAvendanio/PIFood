@@ -10,6 +10,8 @@ export const DETAILS = 'DETAILS'
 export const ORDER_BY_REPICE_CREATE = 'ORDER_BY_REPICE_CREATE'
 export const ADD_FAVORITE = 'ADD_FAVORITE'
 export const REMOVE_FAVORITE = 'REMOVE_FAVORITE'
+export const DETAILS_FOOD = 'DETAILS_FOOD'
+
 
 export function getFood(){
     return async function(dispatch){
@@ -107,5 +109,11 @@ export function removeFavorites(payload){
             type: REMOVE_FAVORITE,
             payload
         })
+    }
+}
+
+export function vacio(){
+    return{
+        type: DETAILS_FOOD
     }
 }

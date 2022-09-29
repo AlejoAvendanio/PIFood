@@ -15,9 +15,9 @@ export default function SearchBar({setCurrentPage}) {
         dispatch(getNameQuery(input))
         setCurrentPage(1)
     }
-    useEffect(()=>{
-        dispatch(getNameQuery(input))
-    },[])
+    // useEffect(()=>{
+    //     dispatch(getNameQuery(input))
+    // },[])
 
     return (
     <div>

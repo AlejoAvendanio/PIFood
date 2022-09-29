@@ -2,12 +2,12 @@ const axios = require('axios')
 const {Diet, Recipe} = require('../db')
 
 const getCallApi =  async ()=>{
-    let consuApi = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=caba7b7d8eec4f5ca12eb794d7def2e0&addRecipeInformation=true&number=100`)
+    let consuApi = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=1effab087d93436a8171009bfb87f13a&addRecipeInformation=true&number=100`)
     try{
     consuApi =  consuApi.data.results.map(e=>{
             return{
                 image:e.image,
-                diets:e.diets ?? 'sin dieta',
+                diets:e.diets || 'sin dieta',
                 title:e.title,
                 id:e.id,
                 summary:e.summary ?? 'agregar summary',

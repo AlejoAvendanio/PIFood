@@ -22,10 +22,10 @@ export default function useSetForm() {
     const validate =(form)=>{
         const error = {}
     if(!form.title){
-        error.title = 'complit title please'
+        error.title = 'complite title please'
     }
-    else if(!/^[a-zA-Z\s]*$/.test(form.title)) {
-        error.title = "Must contain letters and spaces only";
+    else if(!/^[a-zA-Z]{4,20}$/.test(form.title)) {
+        error.title = "Must contain letters and spaces only and [4-20] letters";
     }
     else if(/^\s+$/.test(form.title) ) {
         error.title = "Not space in white";
@@ -39,11 +39,11 @@ export default function useSetForm() {
     else if(!form.healthScore){
         error.healthScore = 'complit healthScore please'
     }
+    else if (!(/^[1-9][0-9]?$|^100$/.test(form.healthScore))) {
+        error.healthScore = "Please, we need the score of numbers (1-100)";
+    }
     else if(/^\s+$/.test(form.healthScore) ) {
         error.healthScore = "Not space in white";
-    }
-    else if(form.diets.length===0){
-        error.diets='ingrese dietas'
     }
     return error
     }
@@ -54,6 +54,7 @@ export default function useSetForm() {
         e.preventDefault()
         if(form.title && form.summary && form.healthScore ){
             dispatch(postRepice(form))
+            alert('recipe create')
         }else{
             alert('complite full')
         }
