@@ -15,7 +15,7 @@ export const DETAILS_FOOD = 'DETAILS_FOOD'
 
 export function getFood(){
     return async function(dispatch){
-        var json = await axios.get("http://localhost:3001/repice")
+        var json = await axios.get("https://repice.vercel.app/repice")
         return dispatch({
             type: GET_FOOD,
             payload:json.data
@@ -25,7 +25,7 @@ export function getFood(){
 
 export function getNameQuery(payload){
     return async function(dispatch){
-        var json = await axios.get(`http://localhost:3001/repice?name=${payload}`)
+        var json = await axios.get(`https://repice.vercel.app/repice?name=${payload}`)
         console.log(json.data)
         return dispatch({
             type: GET_NAME_QUERY,
@@ -36,7 +36,7 @@ export function getNameQuery(payload){
 
 export function getDiets(){
     return async function(dispatch){
-        var json = await axios.get('http://localhost:3001/diets')
+        var json = await axios.get('https://repice.vercel.app/diets')
         return dispatch({
             type: GET_DIETS,
             payload: json.data
@@ -79,7 +79,7 @@ export function filterRepiceCreate(payload){
 
 export function details(id){
     return async function(dispatch){
-        var json = await axios.get(`http://localhost:3001/repice/${id}`)
+        var json = await axios.get(`https://repice.vercel.app/repice/${id}`)
         return dispatch({
             type: DETAILS,
             payload:json.data
@@ -89,7 +89,7 @@ export function details(id){
 
 export function postRepice(payload){
     return async function(){
-        let json = await axios.post('http://localhost:3001/repice',payload)
+        let json = await axios.post('https://repice.vercel.app/repice',payload)
         return json
     }
 }
